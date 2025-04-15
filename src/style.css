@@ -4,9 +4,10 @@
    margin: 0;
    box-sizing: border-box;
    font-family: "Overpass", sans-serif;
-} /* .test {
+} 
+/* 
    background-image: url("/assets/images/background-pattern-desktop.svg");
-} */
+ */
 body {
    display: flex;
    flex-direction: column;
