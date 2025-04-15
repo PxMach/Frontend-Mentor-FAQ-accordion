@@ -56,21 +56,19 @@ body {
 .section img {
    cursor: pointer;
 }
-.section #minus {
+.plus {
+   display: flex;
+}
+.section .minus {
    display: none;
 }
 .question-answer .hidden-paragraph {
    display: none;
-   color: hsl(279, 65%, 77%);
+   color: hsl(279, 23%, 49%);
 }
 
-/* 
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-   */
+@media (max-width: 550px) {
+   .container {
+      width: 350px;
+   }
+}
