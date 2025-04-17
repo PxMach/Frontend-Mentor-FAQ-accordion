@@ -41,7 +41,7 @@ body {
 }
 /* Section */
 .question-answer {
-   margin-bottom: 20px;
+   margin: 20px 0;
 }
 .question-answer .section {
    display: flex;
@@ -51,7 +51,7 @@ body {
 }
 .section p {
    color: hsl(292, 42%, 14%);
-   font-weight: 800;
+   font-weight: 700;
    cursor: pointer;
 }
 .section p:hover {
@@ -69,6 +69,10 @@ body {
 .question-answer .hidden-paragraph {
    display: none;
    color: hsl(279, 23%, 49%);
+}
+
+.space {
+   border-bottom: 1px solid rgb(242, 241, 241);
 }
 
 @media (max-width: 550px) {
